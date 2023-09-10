@@ -1,12 +1,14 @@
 import React from "react";
 import Article from "./Article";
 import Comment from "./Comment";
+import NeverGonnaGiveYouUp from "./NeverGonnaGiveYouUp";
 
-function App() {
+function App () {
   return (
     <div>
       <Article />
       <Comment />
+      <NeverGonnaGiveYouUp />
     </div>
   );
 }
